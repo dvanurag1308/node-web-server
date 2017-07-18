@@ -50,7 +50,7 @@ app.get('/about', (req, res) => {
 app.get('/projects', (req, res) => {
     res.render('projects', {
         pageTitle : 'Projects Page',
-        message: 'Portfoliio page here'
+        message: 'Portfolio page here'
     })
 });
 app.get('/bad', (req, res) => {
